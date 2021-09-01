@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="./css/styles.css" rel="stylesheet">
+    <title>Vintage Car Hire</title>
+  </head>
+  <body>
+    <!-- Navbar starts here-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid"  id="backtotop">
+          <img class="logopic"  src="./images/logo.jpg" alt="Vintage Care for Hire">
+          <!-- <a class="navbar-brand logocolor" href="./images/logo.jpg">VC</a> -->
+          <!-- <label class="logocolor id=backtotop">VC</label> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link active logocolor" aria-current="page" href="#cars">Cars</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link logocolor" href="#enquires">Enquires</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link logocolor" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+     
+    <!-- Navbar ends here-->
+    <h1 class="text-center">Vintage Cars for hire</h1>
+    <!-- Cars display here-->
+    <section id="cars">
+        
+        <div class="container">
+            <h4>Car Listings</h4>
+            <div class="row">
+              <div class="col">
+                <div class="card " style="width: 18rem;">
+                    <img src="./images/car1.jpg" class="card-img-top" alt="Car1">
+                    <div class="card-body">
+                      <p class="card-text">Vintage Antique Auto</p>
+                      <p>Car type: Sedan</p>
+                      <p>Doors :4</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col ">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/car2.jpg" class="card-img-top" alt="Car2">
+                    <div class="card-body">
+                      <p class="card-text">Vintage Grill Shiny</p>
+                      <p>Car type: Sedan</p>
+                      <p>Doors :4</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/car3.jpg" class="card-img-top" alt="Car3">
+                    <div class="card-body">
+                      <p class="card-text">Vintage Volkswagen Beetle</p>
+                      <p>Car type: Sedan</p>
+                      <p>Doors :4</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/car4.jpg" class="card-img-top" alt="Car4">
+                    <div class="card-body">
+                      <p class="card-text">Vintage Havana old</p>
+                      <p>Car type: Sedan</p>
+                      <p>Doors :4</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- Cars display ends here-->
+    <br><br>
+    <!-- Enquiry form starts here-->
+    <section class="container enquiryformbgcolor" id="enquires" >
+    <h4>Enquire about a Car</h4>
+    <form>
+        <div class="mb-3">
+            <label for="fname" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="fname">
+          </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+        <label for="selectacar" class="form-label">Choose a Car</label>
+        <select class="form-select" aria-label="Default select example" id="selectacar">
+            <option selected>Select a Car</option>
+            <option value="1">Vintage Antique Auto</option>
+            <option value="2">Vintage Grill Shiny</option>
+            <option value="3">Vintage Volkswagen Beetle</option>
+            <option value="3">Vintage Havana old</option>
+          </select>
+        </div>
+        <br>
+        <label for="floatingTextarea2">Comments</label>
+          <div class="form-floating">
+             <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+          </div>
+          <br>
+        <div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+      </form>
+    </section>
+    <br>
+    <!-- Enquiry form ends here-->
+    <!--contact address start here-->
+    <section class="container contact" id="contact">
+        <div clas="row">
+        <address>
+            
+            <h4>Contact:</h4>
+            The Vintage and Car Classic Hub<br>
+            Box 564, Kings park<br>
+            NSW <br>
+            0470 289 989 <br>
+            Email: contact@vintagecars.com<br>
+            </address>
+        </div>
+    </section>
+     
+    <div  id="contentframe" style="position:relative; top: 0px; left: 100px;">
+    <iframe  src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d26532.404410861014!2d150.91528409641805!3d-33.7722783136965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-33.7967617!2d150.9508273!4m5!1s0x6b12996c3a3e89c1%3A0x89c300b2fe128da0!2sThe%20Vintage%20and%20Classic%20Car%20Hub%20Pty%20Ltd%2C%2011%20Romford%20Rd%2C%20Kings%20Park%20NSW%202148!3m2!1d-33.7478556!2d150.913447!5e0!3m2!1sen!2sau!4v1630467176717!5m2!1sen!2sau" width="400" height="300" style="border: 1px solid black;" allowfullscreen="" loading="lazy"></iframe>
+  
+     </div>  
+  <!-- contact address ends here-->
+
+
+   <!-- Footer starts here -->
+
+   <footer class="container text-center">Copyright 2021 All rights Reserverd</footer>
+   
+   <div class="right">
+    <a href="#backtotop">Back to Top</a>
+    </div>
+   
+   <!-- Footer ends here -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
