@@ -31,10 +31,19 @@ h4{
     border-left: 10%;
     border-right: 10%;
     border-bottom-left-radius: 10%;
-    height: calc(100vh / 1.9);
+    /* height: calc(100vh / 1.9); */
+    height: 350px ;
     
 
 }
+/* .card {
+    height: 350px ;
+    margin: 5%;
+    margin-bottom: 10%;
+    border: 2px solid rgb(82, 48, 48);
+    border-radius: 10%;
+
+} */
 section{
     margin-top: 5px;
 }
